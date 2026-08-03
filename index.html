@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ملخصات شرح المنظومة البيقونية للشيخ طارق عوض الله">
+  <title>شرح المنظومة البيقونية | المحاضرات</title>
+  <link rel="stylesheet" href="assets/css/home.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <span class="tag">مشروع تعليمي متجدد</span>
+      <h1>شرح المنظومة البيقونية</h1>
+      <p>ملخصات دروس الشيخ طارق عوض الله، مع شرح الأبيات والمصطلحات والملاحظات الشخصية.</p>
+      <div class="hero-actions">
+        <a class="primary-btn" href="lectures/lecture01.html">ابدأ المحاضرة الأولى</a>
+        <button id="themeBtn" class="secondary-btn" type="button">🌙 الوضع الليلي</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="stats">
+      <div class="stat">
+        <span>المحاضرات المنشورة</span>
+        <strong>1</strong>
+      </div>
+      <div class="stat">
+        <span>إجمالي الأبيات</span>
+        <strong>34</strong>
+      </div>
+      <div class="stat">
+        <span>تقدمك</span>
+        <strong id="progressText">0%</strong>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-head">
+        <div>
+          <h2>المحاضرات</h2>
+          <p>كل محاضرة لها صفحة مستقلة ويمكن إضافة الملاحظات داخلها.</p>
+        </div>
+        <input id="lectureSearch" type="search" placeholder="ابحث عن محاضرة...">
+      </div>
+
+      <div class="lecture-grid" id="lectureGrid">
+        <article class="lecture-card" data-title="المحاضرة الأولى مدخل إلى علم مصطلح الحديث البيقونية">
+          <div class="card-top">
+            <span class="number">01</span>
+            <span class="status published">منشورة</span>
+          </div>
+          <h3>المحاضرة الأولى</h3>
+          <p>مدخل إلى علم مصطلح الحديث، وشرح أوائل البيقونية، والسند والمتن والإسناد.</p>
+          <div class="card-actions">
+            <a href="lectures/lecture01.html">فتح المحاضرة</a>
+            <label class="check-row">
+              <input id="done-lecture-01" type="checkbox">
+              <span>تمت المذاكرة</span>
+            </label>
+          </div>
+        </article>
+
+        <article class="lecture-card disabled" data-title="المحاضرة الثانية">
+          <div class="card-top">
+            <span class="number">02</span>
+            <span class="status coming">قريبًا</span>
+          </div>
+          <h3>المحاضرة الثانية</h3>
+          <p>ستُضاف بعد تلخيص المحاضرة القادمة.</p>
+        </article>
+
+        <article class="lecture-card disabled" data-title="المحاضرة الثالثة">
+          <div class="card-top">
+            <span class="number">03</span>
+            <span class="status coming">قريبًا</span>
+          </div>
+          <h3>المحاضرة الثالثة</h3>
+          <p>ستُضاف بعد تلخيص المحاضرة القادمة.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="how">
+      <h2>طريقة إضافة المحاضرات القادمة</h2>
+      <ol>
+        <li>انسخ ملف <code>lectures/lecture01.html</code>.</li>
+        <li>غيّر الاسم إلى <code>lecture02.html</code>.</li>
+        <li>استبدل محتوى المحاضرة مع الاحتفاظ بالتصميم ونظام الملاحظات.</li>
+        <li>أضف بطاقة جديدة في <code>index.html</code> تربط بالصفحة الجديدة.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    مشروع شخصي لمذاكرة شرح المنظومة البيقونية.
+  </footer>
+
+  <script src="assets/js/home.js"></script>
+</body>
+</html>
